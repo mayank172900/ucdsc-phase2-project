@@ -1,0 +1,5 @@
+feat_dim,acc,auroc,oscr,tnr95,dtacc95,summary_path
+32,90.0812312954254,64.4755922835406,63.101934646700364,1.6635859519408491,68.85205773040757,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0_fd32/split_0/epoch_0040_summary.json
+64,97.99059427105601,66.92730909381152,66.59480527485789,13.123844731977819,65.38176891241419,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0_fd64/split_0/epoch_0040_summary.json
+128,98.20436083796494,74.68683790646271,74.39849012050756,13.770794824399257,70.58056391699377,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0_fd128/split_0/epoch_0040_summary.json
+256,98.3326207781103,62.7192687839962,62.386804478271486,19.038817005545283,64.77660405927301,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0_fd256/split_0/epoch_0040_summary.json

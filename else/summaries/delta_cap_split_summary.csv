@@ -1,0 +1,10 @@
+dataset,split_idx,delta_cap_hat,argmax_threshold,phat_at_argmax,pcap_at_argmax,summary_path
+bloodmnist,0,0.017583151291614807,0.02,0.3432427651340111,0.3256596138423963,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_0/resume_eval_only_summary.json
+bloodmnist,1,0.008212528935185204,0.0,0.5082125289351852,0.5,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_1/resume_eval_only_summary.json
+bloodmnist,2,0.025665258612006414,0.0,0.5256652586120064,0.5,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_2/resume_eval_only_summary.json
+bloodmnist,3,0.02459497358040129,0.06,0.11200499086638831,0.08741001728598702,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_3/resume_eval_only_summary.json
+bloodmnist,4,0.007495376886932512,0.06,0.0799146403990545,0.08741001728598702,/Users/goodday/Downloads/pap/out/artifacts/bloodmnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_4/resume_eval_only_summary.json
+dermamnist,0,0.016555342131282652,0.04,0.16640736926934097,0.18296271140062362,/Users/goodday/Downloads/pap/out/artifacts/dermamnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_0/resume_eval_only_summary.json
+dermamnist,1,0.00449444510808078,0.06,0.0919044623940678,0.08741001728598702,/Users/goodday/Downloads/pap/out/artifacts/dermamnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_1/resume_eval_only_summary.json
+dermamnist,2,0.015106971918121548,0.02,0.3407665857605178,0.3256596138423963,/Users/goodday/Downloads/pap/out/artifacts/dermamnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_2/resume_eval_only_summary.json
+dermamnist,3,0.022650197825566848,0.04,0.20561290922619047,0.18296271140062362,/Users/goodday/Downloads/pap/out/artifacts/dermamnist/resnet18_NirvanaOpenset_38.0_False_0.0/split_3/resume_eval_only_summary.json
