@@ -1,0 +1,91 @@
+{
+  "rows": [
+    {
+      "label": "BloodMNIST baseline",
+      "num_prototypes": 4,
+      "feat_dim": 512,
+      "center_norm_mean": 100.00000344210623,
+      "center_norm_std": 2.0020540924466754e-06,
+      "center_norm_cv": 2.002054023533849e-08,
+      "pairwise_distance_mean": 141.5594005029711,
+      "pairwise_distance_std": 1.6674896556878593e-06,
+      "pairwise_distance_cv": 1.1779434285276318e-08,
+      "offdiag_cosine_mean": -0.0019531245614446688,
+      "offdiag_cosine_std": 4.420017356316965e-10,
+      "lambda_mean": 1.0,
+      "lambda_max": 1.0,
+      "lambda_min": 1.0
+    },
+    {
+      "label": "DermaMNIST baseline",
+      "num_prototypes": 4,
+      "feat_dim": 512,
+      "center_norm_mean": 100.00000344210623,
+      "center_norm_std": 2.0020540924466754e-06,
+      "center_norm_cv": 2.002054023533849e-08,
+      "pairwise_distance_mean": 141.5594005029711,
+      "pairwise_distance_std": 1.6674896556878593e-06,
+      "pairwise_distance_cv": 1.1779434285276318e-08,
+      "offdiag_cosine_mean": -0.0019531245614446688,
+      "offdiag_cosine_std": 4.420017356316965e-10,
+      "lambda_mean": 1.0,
+      "lambda_max": 1.0,
+      "lambda_min": 1.0
+    },
+    {
+      "label": "BloodMNIST feat_dim=32",
+      "num_prototypes": 4,
+      "feat_dim": 32,
+      "center_norm_mean": 99.99999986887539,
+      "center_norm_std": 6.095169598947692e-08,
+      "center_norm_cv": 6.095169606939959e-10,
+      "pairwise_distance_mean": 143.61406597657003,
+      "pairwise_distance_std": 5.216874399138953e-08,
+      "pairwise_distance_cv": 3.6325650719965423e-10,
+      "offdiag_cosine_mean": -0.03125000002057509,
+      "offdiag_cosine_std": 2.3413032508124735e-11,
+      "lambda_mean": 0.9999999999999998,
+      "lambda_max": 1.0,
+      "lambda_min": 0.9999999999999998
+    },
+    {
+      "label": "PathMNIST d=4",
+      "num_prototypes": 6,
+      "feat_dim": 4,
+      "center_norm_mean": 1.5121714600370133,
+      "center_norm_std": 0.6487149517316722,
+      "center_norm_cv": 0.4289956323575857,
+      "pairwise_distance_mean": 2.392247775725892,
+      "pairwise_distance_std": 0.8158941147797335,
+      "pairwise_distance_cv": 0.3410575288473881,
+      "offdiag_cosine_mean": -0.17446410330251336,
+      "offdiag_cosine_std": 0.5090338870072583,
+      "lambda_mean": 1.0412263287413492,
+      "lambda_max": 1.0768331183074589,
+      "lambda_min": 1.015338257409884
+    },
+    {
+      "label": "CIFAR-100 extension",
+      "num_prototypes": 4,
+      "feat_dim": 128,
+      "center_norm_mean": 199.99999759703118,
+      "center_norm_std": 1.357848454827108e-06,
+      "center_norm_cv": 6.789242355707228e-09,
+      "pairwise_distance_mean": 283.9454134523119,
+      "pairwise_distance_std": 6.732226438543876e-07,
+      "pairwise_distance_cv": 2.370957979807108e-09,
+      "offdiag_cosine_mean": -0.007812496974974871,
+      "offdiag_cosine_std": 3.121825866969167e-09,
+      "lambda_mean": 1.0,
+      "lambda_max": 1.0,
+      "lambda_min": 1.0
+    }
+  ],
+  "notes": {
+    "BloodMNIST baseline": "Saved split-0 artifact export from the frozen baseline run.",
+    "DermaMNIST baseline": "Saved split-0 artifact export from the frozen baseline run.",
+    "BloodMNIST feat_dim=32": "Saved split-0 artifact export from the low-dimension run.",
+    "PathMNIST d=4": "Low-dimensional fallback run. The saved code skips simplex initialization when feat_dim < num_classes - 1, so non-symmetry here reflects the actual saved implementation choice.",
+    "CIFAR-100 extension": "Saved split-0 criterion checkpoint from the CIFAR-100 extension run."
+  }
+}
