@@ -55,6 +55,7 @@ Contains:
 
 - Mac/MPS PathMNIST extension code
 - PathMNIST result files and summary
+- run guide: `PathMNIST/code/MAC_RUN.md`
 
 Expected local dataset folder:
 
@@ -66,6 +67,7 @@ Contains:
 
 - Windows/CUDA CIFAR-100 extension code
 - CIFAR-100 result files and summary
+- run guide: `CIFAR100/code/WINDOWS_RUN.md`
 
 Expected local dataset folder:
 
@@ -75,10 +77,11 @@ Expected local dataset folder:
 
 Contains:
 
-- final Phase-2 PPT
-- final report PDF
-- threshold/theory/analysis summaries
-- geometry plots, geometry summary table, and plot generator
+- final Phase-2 PPT: `else/presentation/UCDSC_Phase2_Evaluation.pptx`
+- final Phase-2 report PDF: `else/report/phase2_report.pdf`
+- updated theory paper referred to in `PAPER_REPO_CONNECTION.md`: `else/report/paper_general_updated.pdf`
+- threshold/theory/analysis summaries: `else/summaries/`
+- geometry plots, geometry summary table, and plot generator: `else/geometry_plots/`
 
 ## Important Framing
 
@@ -166,3 +169,5 @@ Main geometry summary:
 Datasets are intentionally not committed to this GitHub-ready package because they are large.
 
 They should be placed manually in the expected local folders before rerunning the experiments.
+
+Each `NirvanaOSR.py` takes `--dataroot` (default `./data`, relative to the working directory) and appends the dataset name. The run guides run from `PathMNIST/code/` and `CIFAR100/code/` with `--dataroot ./data`, which resolves to `PathMNIST/code/data/pathmnist/` and `CIFAR100/code/data/cifar100/`. Pass `--dataroot ../data` from those folders to use the folders listed above.

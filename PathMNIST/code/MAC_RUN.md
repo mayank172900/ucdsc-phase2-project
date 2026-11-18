@@ -60,11 +60,7 @@ python3 ./NirvanaOSR.py \
 
 ## 3. Full 5-split run
 
-```bash
-./run_pathmnist_lowdim_mps.sh
-```
-
-Equivalent direct command:
+The `run_pathmnist_lowdim_mps.sh` wrapper is not included in this repository (`*.sh` is ignored by `.gitignore` here). Run the command directly:
 
 ```bash
 python3 ./NirvanaOSR.py \
